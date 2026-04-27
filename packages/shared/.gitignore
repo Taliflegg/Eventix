@@ -1,0 +1,16 @@
+# Compiled output
+dist/
+*.tsbuildinfo
+
+# Dependencies (handled by root)
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+tmp/
+temp/

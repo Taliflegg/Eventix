@@ -1,0 +1,169 @@
+.screen {
+  @apply hidden min-h-screen relative;
+}
+.screen_active {
+  @apply block;
+}
+.header {
+  @apply bg-white p-4 border-b border-gray-200 flex start-0  sticky top-0 z-50;
+}
+.back_btn {
+  @apply bg-transparent border-none text-lg text-blue-500 cursor-pointer p-0 ml-4;
+}
+.header_title {
+  @apply text-lg font-semibold text-gray-800 ;
+}
+.container {
+  @apply p-5 max-w-md mx-auto pb-24;
+}
+.step_indicator {
+  @apply flex justify-center mb-6 gap-2;
+}
+.step_dot {
+  @apply w-2 h-2 rounded-full bg-gray-200;
+}
+.step_dot_active {
+  @apply bg-blue-500;
+}
+.step_dot_completed {
+  @apply bg-green-500;
+}
+.screen_title {
+  @apply text-2xl font-semibold text-gray-800 text-center mb-2;
+}
+.screen_subtitle {
+  @apply text-sm text-gray-500 text-center mb-6 leading-snug;
+}
+.form_group {
+  @apply mb-5;
+}
+.form_label {
+  @apply text-sm font-semibold text-gray-800 mb-2 block ;
+}
+.form_label_optional {
+  @apply text-gray-500;
+}
+.form_label_optional::after {
+  content: ' (רשות)';
+  @apply font-normal text-gray-400;
+}
+.form_input {
+  @apply w-full px-4 py-3 border-2 border-gray-200 rounded-lg text-base;
+}
+.form_input:focus {
+  @apply outline-none border-blue-500;
+}
+.form_textarea {
+  @apply w-full px-4 py-3 border-2 border-gray-200 rounded-lg text-sm resize-y min-h-[5rem];
+}
+.form_textarea:focus {
+  @apply outline-none border-blue-500;
+}
+.counter_group, .counter {
+  @apply flex items-center gap-3;
+}
+.counter_btn {
+  @apply w-8 h-8 border-2 border-gray-200 bg-white rounded-md flex items-center justify-center cursor-pointer text-base font-semibold;
+}
+.counter_btn:hover {
+  @apply border-blue-500;
+}
+.counter_value {
+  @apply text-base font-semibold min-w-[1.5rem] text-center;
+}
+.time_selector {
+  @apply grid grid-cols-3 gap-2;
+}
+.time_option {
+  @apply px-2 py-3 border-2 border-gray-200 bg-white rounded-lg text-center text-sm cursor-pointer transition;
+}
+.time_option:hover {
+  @apply border-blue-500;
+}
+.time_option_selected {
+  @apply border-blue-500 bg-blue-50;
+}
+.calendar_grid {
+  @apply grid grid-cols-7 gap-1 mt-4;
+}
+.calendar_header {
+  @apply text-center text-xs font-semibold text-gray-500 py-2 px-1;
+}
+.calendar_day {
+  @apply aspect-square flex items-center justify-center border border-gray-200 bg-white cursor-pointer text-xs rounded-md transition;
+}
+.calendar_day:hover {
+  @apply border-blue-500;
+}
+.calendar_day_selected {
+  @apply bg-blue-500 text-white border-blue-500;
+}
+.calendar_day_disabled {
+  @apply bg-gray-100 text-gray-300 cursor-not-allowed;
+}
+.selected_dates {
+  @apply bg-gray-100 rounded-lg p-3 mt-4;
+}
+.selected_dates_title {
+  @apply text-xs font-semibold text-gray-500 mb-2;
+}
+.date_tag {
+  @apply inline-block bg-blue-500 text-white px-2 py-1 rounded-full text-[11px] m-1;
+}
+.photo_upload {
+  @apply border-2 border-dashed border-gray-200 rounded-lg p-6 text-center cursor-pointer transition;
+}
+.photo_upload:hover {
+  @apply border-blue-500 bg-blue-50;
+}
+.photo_upload_icon {
+  @apply text-2xl text-gray-500 mb-2;
+}
+.photo_upload_text {
+  @apply text-sm text-gray-500;
+}
+.primary_btn {
+  @apply w-full p-4 bg-blue-500 text-white border-none rounded-lg text-base font-semibold cursor-pointer fixed bottom-5 left-5 right-5 max-w-[360px] mx-auto;
+}
+.primary_btn:hover {
+  @apply bg-blue-700;
+}
+.primary_btn_disabled {
+  @apply bg-gray-200 text-gray-400 cursor-not-allowed;
+}
+.share_container {
+  @apply text-center p-10;
+}
+.success_icon {
+  @apply text-6xl mb-4;
+}
+.share_title {
+  @apply text-xl font-semibold text-gray-800 mb-2;
+}
+.share_subtitle {
+  @apply text-sm text-gray-500 mb-6;
+}
+.share_link {
+  @apply bg-gray-100 border-2 border-gray-200 rounded-lg px-4 py-3 my-4 text-xs font-mono break-words text-gray-500;
+}
+.share_buttons {
+  @apply flex gap-3 mt-6;
+}
+.share_btn {
+  @apply flex-1 py-3 px-4 border-none rounded-lg text-sm font-semibold cursor-pointer;
+}
+.whatsapp_btn {
+  @apply bg-green-500 text-white;
+}
+.copy_btn {
+  @apply bg-gray-600 text-white;
+}
+.meal_train_preview {
+  @apply bg-white rounded-xl p-4 my-4 shadow-md;
+}
+.preview_title {
+  @apply text-base font-semibold text-gray-800 mb-2;
+}
+.preview_detail {
+  @apply text-sm text-gray-500 mb-1;
+}

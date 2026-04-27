@@ -1,0 +1,139 @@
+/* Profile.module.css */
+
+.wrapper {
+  @apply  bg-gray-100 rounded-xl p-4 mb-4 shadow-sm w-full;
+}
+
+.title {
+  @apply block font-semibold mb-2 text-gray-800;
+}
+
+.container {
+  @apply flex justify-between items-center;
+}
+.isSelect{
+  @apply text-gray-700;
+}
+.PencilIcon {
+  @apply text-green-700 hover:text-green-800 cursor-pointer;
+}
+.TextInput {
+  @apply w-full p-2 border border-gray-300 rounded-md mb-3 focus:outline-none focus:ring-2 focus:ring-green-500;
+}
+.Select{
+  @apply w-full p-2 border border-gray-300 rounded-md mb-3 focus:outline-none focus:ring-2 focus:ring-green-500;
+}
+.input{
+  @apply w-full p-2 border border-gray-300 rounded-md mb-3 focus:outline-none focus:ring-2 focus:ring-green-500;
+}
+.errorText{
+  @apply text-red-500 text-sm mt-1;
+}
+.cancelButton {
+  @apply flex justify-end gap-2;
+}
+.button{
+  @apply flex items-center gap-2 bg-gray-300 text-gray-800 px-4 py-2 rounded-md hover:bg-gray-400 transition;
+}
+.ProffileContainer {
+  @apply p-6 bg-white min-h-screen text-right font-sans w-full px-4;
+}
+
+.Label {
+  @apply text-2xl text-green-700 font-bold text-center mb-8;
+}
+.imageWrapper {
+  @apply w-full max-w-xl mx-auto;
+}
+.imageDiv {
+  @apply flex justify-center mt-4 mb-8;
+}
+.imageLabel {
+  @apply relative cursor-pointer  w-24 h-24 sm:w-32 sm:h-32;
+}
+.image {
+  @apply rounded-full object-cover w-full h-full border-4 border-green-500 shadow-md transition-transform duration-300 group-hover:scale-105;
+}
+.userIcon {
+  @apply w-full h-full text-gray-400;
+}
+.editImageButton {
+  @apply absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 rounded-full transition-opacity;
+}
+.editimage{
+  @apply text-white text-sm font-semibold;
+}
+.imageOverlay {
+  @apply absolute inset-0 opacity-0 cursor-pointer;
+}
+
+.removeImageButton {
+   @apply text-sm text-red-600 hover:underline absolute right-4;
+  top: 3.75rem; 
+}
+.trashIcon {
+  @apply inline-block mr-1;
+}
+.notificationSectionSpan{
+  @apply text-gray-800 font-semibold;
+}
+.notificationSection {
+  @apply bg-gray-100 rounded-xl p-4 mb-4 shadow-sm w-full flex justify-between items-center;
+}
+.editnotificationSection {
+  @apply text-green-700 hover:text-green-800 cursor-pointer;
+}
+.buttonchangepassword {
+  @apply w-full sm:w-auto flex items-center justify-center gap-2 bg-green-700 text-white px-6 py-3 rounded-xl font-semibold hover:bg-green-800 transition mx-auto;
+}
+.googlebutton{
+  @apply bg-white p-4 rounded-xl flex justify-center
+}
+.divdelete{
+  @apply flex justify-center items-center text-center gap-4
+}
+.buttondelete{
+  @apply flex items-center justify-center gap-2 px-4 py-2 bg-red-600 text-white hover:bg-red-700 transition rounded-xl
+}
+.logout{
+  @apply flex items-center justify-center gap-2 px-4 py-2 bg-red-600 text-white hover:bg-red-700 transition rounded-xl;
+}
+.divsave{
+  @apply text-center mt-10;
+}
+.buttonsave{
+  @apply w-full sm:w-auto flex items-center justify-center gap-2 bg-green-700 text-white px-6 py-3 rounded-xl font-semibold hover:bg-green-800 transition mx-auto;
+}
+.modelImagesave{
+  @apply fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50;
+}
+.divmodel{
+  @apply bg-white rounded-xl shadow-xl p-8 max-w-sm text-center;
+}
+.h3{
+  @apply text-xl font-bold text-green-700 mb-4;
+}
+.p{
+  @apply text-gray-700 mb-6;
+}
+.buttonmodel{
+  @apply px-5 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition;
+}
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* צבע רקע שקוף */
+  display: flex;
+  justify-content: center; /* ממקם במרכז אופקית */
+  align-items: center; /* ממקם במרכז אנכית */
+}
+
+.modal-content {
+  background: white; /* צבע הרקע של התוכן */
+  padding: 20px; /* רווח פנימי */
+  border-radius: 8px; /* פינות מעוגלות */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* צל */
+}

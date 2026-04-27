@@ -1,0 +1,1074 @@
+{
+  "menu": "Show Menu",
+  "participants": "Participants with dietary restrictions",
+  "title": "Eventix",
+  "not_found": "404 - Page not found",
+  "chart_title": "Active Users by App per Month",
+  "Events": {
+    "title": "All Events"
+  },
+  "NavBar": {
+    "Home_Button": "Home page",
+    "Analytics_Button": "Analytics",
+    "User_Management_Button": "User management",
+    "Events_Button": "Events",
+    "Shabbat_Button": "Shabbat",
+    "Meals_Button": "Meals",
+    "Back_To_Analytics": "Back to Analytics"
+  },
+  "WeeklyActiveAccounts": {
+    "title": "Weekly Active Accounts",
+    "description": "Number of accounts that have set a plan in the last week"
+  },
+  "LoginPage": {
+    "success": "Login successful! You are being redirected to the home page",
+    "notRegistered": "You are not registered via Google. To log in, please change your profile settings.",
+    "userNotFound": "User does not exist. Proceeding to registration...",
+    "verifyError": "Error verifying Google token",
+    "unexpectedError": "Unexpected error"
+  },
+  "Analytics": {
+    "title_general": "General Statistics",
+    "description_general": "View data and statistics of activity in the system",
+    "title_events": "Event Statistics",
+    "description_events": "View data and statistics of events",
+    "title_shabbat": "Shabbat Statistics",
+    "description_shabbat": "View data and statistics of Shabbat",
+    "title_meals": "Meal Statistics",
+    "description_meals": "View data and statistics of meals"
+  },
+  "AnalyticsCard": {
+    "CompletedEventsCard": {
+      "title": "Completed Events",
+      "description": "Number of events completed successfully"
+    },
+    "CreatedManyEventsCard": {
+      "title": "event management users",
+      "description": "number of users created more than two events"
+    },
+    "EventsCreatedThisMonth": {
+      "fetch_error": "Error fetching events",
+      "title": "events created",
+      "description": "number of events created this month"
+    }
+  },
+  "Login": {
+    "email": "Email",
+    "password": "Password",
+    "login": "Login",
+    "forgot_password": "Forgot the Password?",
+    "create_account": "Don't have an account?",
+    "email_error": "Please enter a valid email address",
+    "change_here": "Change here",
+    "create": "Register here",
+    "login_successful": "Login successful!",
+    "login_failed": "Login failed. Please try again."
+  },
+  "ChangePassword": {
+    "title": "Change Password",
+    "currentPassword": "Current Password",
+    "newPassword": "New Password",
+    "confirmPassword": "Confirm New Password",
+    "changeButton": "Change Password",
+    "closeButton": "Close"
+  },
+  "error": {
+    "all_fields_required": "All fields are required.",
+    "passwords_do_not_match": "New passwords do not match.",
+    "password_too_short": "New password must be at least 8 characters long.",
+    "password_change_failed": "Password change failed.",
+    "something_went_wrong": "Something went wrong",
+    "current_password_incorrect": "The current password is incorrect.",
+    "password_strength_weak": "The password is too weak."
+  },
+  "success": {
+    "password_changed": "Password changed successfully!"
+  },
+  "signupForm": {
+    "title": "Sign Up",
+    "username": "Name",
+    "email": "Email",
+    "password": "Password",
+    "passwordHint": "At least 8 characters, an uppercase letter, and a special character",
+    "confirmPassword": "Confirm Password",
+    "language": "Language",
+    "submit": "Sign Up",
+    "sending": "Sending...",
+    "profileImage": "Profile Image",
+    "alreadyHaveAccount": "Already have an account?",
+    "loginHere": "Log in here",
+    "dietary": {
+      "selectPlaceholder": "Select Dietary Restrictions",
+      "label": "Dietary Restrictions",
+      "error": "Unable to load dietary restrictions. Please try again later.",
+      "vegetarian": "Vegetarian",
+      "kosher": "Kosher",
+      "allergy": "Allergy",
+      "supervision": "Supervision"
+    },
+    "passwordStrengthLabel": {
+      "label": "Password Strength",
+      "weak": "Weak",
+      "medium": "Medium",
+      "strong": "Strong"
+    },
+    "strength": {
+      "passwordStrengthLabel": {
+        "label": "Password Strength",
+        "weak": "Weak",
+        "medium": "Medium",
+        "strong": "Strong"
+      }
+    },
+    "errors": {
+      "usernameRequired": "Username is required",
+      "emailRequired": "Email is required",
+      "invalidEmail": "Invalid email address",
+      "passwordRequired": "Password is required",
+      "passwordMin": "Password must be at least 8 characters",
+      "passwordUppercase": "Password must include at least one uppercase letter",
+      "passwordSpecial": "Password must include at least one special character",
+      "confirmPasswordRequired": "Please confirm your password",
+      "passwordsMismatch": "Passwords do not match"
+    },
+    "google": {
+      "success": "Registration successful!",
+      "alreadyExists": "User already exists, redirecting to login",
+      "emailExists": "Email already registered. Please login",
+      "error": "Google login error"
+    },
+    "imageUploader": {
+      "uploadTooltip": "Click to upload image",
+      "altText": "Profile image",
+      "deleteButton": "Delete image"
+    }
+  },
+  "EventCard": {
+    "id": "ID",
+    "role": "Role",
+    "expected guests": "Expected Guests",
+    "where": "Where",
+    "when": "When",
+    "delete": "Delete Event",
+    "limited": "Is Limited",
+    "organizer": "organizer",
+    "participant": "participant"
+  },
+  "EventDetails": {
+    "loading details": "Loading details",
+    "event details": "Event Details",
+    "back to events": "Back to Events",
+    "edit event": "Edit Event",
+    "menu": "Show Menu",
+    "update success": "Event updated successfully",
+    "update error": "Error updating event",
+    "no changes made": "No changes were made to the event",
+    "duplicate success": "New event duplicated successfully!",
+    "duplicate error": "Error duplicating new event",
+    "thumbnail removed": "Thumbnail removed successfully",
+    "duplicate event": "Duplicate Event",
+    "copy link": "Copy Link",
+    "participants": "Participants",
+    "no participants": "No participants for this event"
+  },
+  "EventList": {
+    "event details": "Event Details",
+    "back to events": "Back to Events",
+    "next": "Next",
+    "previous": "Previous",
+    "there are no previous events": "There are no previous events",
+    "there are no upcoming events": "There are no upcoming events",
+    "role": "Role",
+    "location": "Location",
+    "date": "Date",
+    "title": "Title",
+    "upcoming events": "Upcoming Events",
+    "past events": "Past Events",
+    "error": "Error",
+    "card display": "Card Display",
+    "row display": "Row Display",
+    "Number of events per page": "number of events per page",
+    "refresh": "refresh",
+    "loading": "Loading",
+    "backend status": "Backend Status",
+    "events": "Events",
+    "add new event": "Add new event",
+    "delete": "Delete",
+    "show": "Show",
+    "cancel": "Cancel",
+    "confirm delete": "Are you sure you want to delete this event?",
+    "delete success": "Event deleted successfully",
+    "delete error": "Error deleting event"
+  },
+  "MenuDisplay": {
+    "loading": "Loading menu...",
+    "title": "Menu for",
+    "no_items": "No categories or dishes to display.",
+    "tags": "Tags",
+    "none": "None",
+    "assigned_to": "Assigned to:",
+    "not_assigned": "Not Assigned",
+    "notes": "Notes:",
+    "unassign": "Unassign",
+    "assign_to_user": "Assign",
+    "no_dishes_in_category": "No dishes in this category.",
+    "no_event_id": "No event ID provided.",
+    "editdish": " edit dish",
+    "removedish": "remove dish ",
+    "error_drag_dish": "You cannot move a dish to a different category",
+    "add_dish": "Add Dish"
+  },
+  "addDish": {
+    "alert": {
+      "error": "Failed to add dish:",
+      "success": "Dish added successfully!",
+      "unknownEvent": "Unknown event",
+      "unknownUser": "Unknown user"
+    },
+    "inCorrectInput": {
+      "nothing": "Please enter a name for the dish",
+      "short": "Dish name is too short",
+      "startDigit": "Dish name cannot start with a digit"
+    },
+    "insertNewDish": "Enter a new dish",
+    "newDishPlaceholder": "e.g., Vegan stir-fry",
+    "mainButtonName": "Add Dish",
+    "addButton": "Add",
+    "cancelButton": "Cancel"
+  },
+  "MenuSuggestions": {
+    "title": "Recommended Meals",
+    "ice_cream": "Ice Cream",
+    "mafrum": "Mafrum",
+    "ravyoly": "Ravioli",
+    "ban": "Steamed Bun",
+    "pizza": "Pizza",
+    "nudels": "Noodles",
+    "fish_and_chips": "Fish and Chips",
+    "pancake": "Pancake",
+    "couscous_with_vegetables": "Couscous with Vegetables",
+    "meat_borax": "Meat Bourekas",
+    "spring_chicken": "Spring Chicken",
+    "Spaghetti Carbonara": "Spaghetti Carbonara",
+    "Beef Stroganoff": "Beef Stroganoff",
+    "Caesar Salad": "Caesar Salad",
+    "Miso Soup": "Miso Soup",
+    "Falafel Wrap": "Falafel Wrap",
+    "Chocolate Lava Cake": "Chocolate Lava Cake",
+    "Margherita Pizza": "Margherita Pizza",
+    "tags_label": "Tags:",
+    "note_label": "Note:",
+    "tag_milk": "Milk",
+    "tag_kosher": "Kosher",
+    "tag_peanuts": "Peanuts",
+    "tag_gluten": "Gluten",
+    "tag_soya": "Soya",
+    "tag_eggs": "Eggs",
+    "tag_vegan": "Vegan",
+    "note_ice_cream": "Vanilla ice cream with peanuts",
+    "note_mafrum": "Perfect for Shabbat",
+    "note_ravyoly": "Ravioli filled with sweet potato",
+    "note_ban": "Steamed bread stuffed with meat",
+    "note_pizza": "Crispy bread topped with tomato paste, yellow cheese and toppings of your choice.",
+    "note_nudels": "Noodles mixed with vegetables and meat stir-fried in a sweet sauce",
+    "note_fish_and_chips": "Fried fish pieces with chips",
+    "note_pancake": "Soft fried pancakes with maple or chocolate sauce",
+    "note_couscous_with_vegetables": "A classic Moroccan dish that no one dislikes",
+    "note_meat_borax": "Puff pastry stuffed with meat",
+    "note_spring_chicken": "Chicken in sweet and sour sauce",
+    "note_Spaghetti Carbonara": "Classic Italian pasta with eggs, cheese, pancetta, and pepper",
+    "note_Beef Stroganoff": "Romaine lettuce with croutons, Parmesan cheese, and Caesar dressing",
+    "note_Caesar Salad": "Romaine lettuce with croutons, Parmesan cheese, and Caesar dressing",
+    "note_Miso Soup": "Traditional Japanese soup with tofu, seaweed, and miso paste",
+    "note_Falafel Wrap": "Fried chickpea balls wrapped in pita with salad and tahini sauce",
+    "note_Chocolate Lava Cake": "Warm chocolate cake with a gooey melted center",
+    "note_Margherita Pizza": "Pizza topped with tomato, mozzarella, and fresh basil"
+  },
+  "messages": {
+    "categoryUpdatedTitle": "succeed",
+    "categoryUpdatedText": "The category was successfully updated to '{{name}}'.",
+    "categoryDeletedTitle": "delete",
+    "categoryDeletedText": "The category '{{name}}' was successfully deleted.",
+    "updateFailed": " Failed to update category",
+    "deleteFailed": " Failed to delete category"
+  },
+  "confirm": {
+    "deleteCategory": "Are you sure you want to delete this category and all its dishes?",
+    "deleteWarning": "This action cannot be undone.",
+    "deleteEvent": "Are you sure you want to delete this event?"
+  },
+  "RemoveDish": {
+    "title": "delete dish",
+    "text": "are you sure you want to delete this dish",
+    "delete": "delete",
+    "cancel": "cancel",
+    "succeed": "delete",
+    "succeedmassage": "The dish was deleted successfully",
+    "error": "error",
+    "errormassage": "An error occurred while deleting the batch"
+  },
+  "EditDish": {
+    "title": "edit dish",
+    "name": "name",
+    "notes": "notes",
+    "tags": "tags",
+    "save": "save",
+    "cancel": "cancel",
+    "emptyname": "tha name cant be empty",
+    "succeed": "succeed",
+    "succeedmassage": "The dish was updated successfully",
+    "error": "error",
+    "errormassage": "Failed to update the package"
+  },
+  "swal": {
+    "edit_title": "Edit Category Name",
+    "edit_input": "Enter the new name for the category",
+    "edit_confirm": "Update",
+    "edit_cancel": "Cancel",
+    "edit_empty": " Category name cannot be empty"
+  },
+  "button": {
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "ok":"OK"
+  },
+  "category": {
+    "edit": "Edit Category",
+    "delete": "Delete Category"
+  },
+  "EditEvent": {
+    "create event": "create event",
+    "create new event": "create new event",
+    "edit event": "Edit Event",
+    "title": "Title",
+    "description": "Description",
+    "location": "Location",
+    "date": "Date",
+    "time": "& Time",
+    "language": "Language",
+    "select language": "Select Language",
+    "meal type": "Meal Type",
+    "select meal type": "Select Meal Type",
+    "meal types": {
+      "meat": "Meat",
+      "dairy": "Dairy",
+      "vegetarian": "Vegetarian",
+      "vegan": "Vegan",
+      "kosher": "Kosher",
+      "bbq": "BBQ",
+      "other": "Other"
+    },
+    "expected count": "Expected Count",
+    "is limited": "Is count of people limited?",
+    "yes": "yes",
+    "no": "no",
+    "duplicate event": "Duplicate Event",
+    "save": "Save Changes",
+    "cancel": "Cancel",
+    "image": "image",
+    "remove image": "Remove Image",
+    "thumbnail": "Thumbnail",
+    "remove image question": "Are you sure you want to remove the image?",
+    "remove image information": "You will remove the thumbnail image from your event.",
+    "remove image confirm": "Yes, remove it"
+  },
+  "EventExpired": {
+    "error_title": "Error",
+    "expired_message": "This event has been cancelled or has already passed.",
+    "apology_message": "We apologize for the inconvenience."
+  },
+  "EventPreview": {
+    "menu": "menu",
+    "signin": "sign in",
+    "signup": "sign up",
+    "seaMenu": "Please log in to access the menu"
+  },
+  "EventSharedView": {
+    "dietary": "Dietary restrictions",
+    "participants": "Number of participants",
+    "copyLink": "Copy link",
+    "linkCopied": "Link copied"
+  },
+
+  "CreateMealTrain": {
+    "next": "Next",
+    "address example": "Street Ben Yeuda 15 Tel Aviv",
+    "family address": "Family Address",
+    "We will create a meal train to support the family": " We will create a meal train to support the family",
+    "Basic details": "Basic Details",
+    "Name of the meal train": "Name of the Meal Train",
+    "Cohen family": "Cohen Family",
+    "back": "Back",
+    "childrens": "Childrens",
+    "adults": "Adults",
+    "How many people to cook for?": "How many people to cook for?",
+    "morning": "Morning",
+    "afternoon": "Afternoon",
+    "evening": "Evening",
+    "Preffered time delvery": "Preffered time delvery",
+    "When and for how many people to cook": "When and for how many people to cook?",
+    "logistique": "Logistics",
+    "Please select at least one date":"lease select at least one date",
+    "Address is required":"Address is required",
+    "Name is required":"Name is required",
+    "months": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "days": [
+      "Sun",
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat"
+    ],
+    "Selected dates": "Selected Dates",
+    "On what dates does the family need meals?": "On what dates does the family need meals?",
+    "Select dates": "Select Dates",
+    "Dates": "Dates",
+    "optional": "Optinal",
+    "for example...": "For example: pasta, oven-baked chicken, vegetable soup",
+    "Favorite foods": " Favorite Foods",
+    "For example nut allergy kosher vegetarian": "For example: nut allergy, kosher, vegetarian...",
+    "Allergies and dietary restrictions": "Allergies and dietary restrictions",
+    "Help volunteers know what to cook": "Help volunteers know what to cook",
+    "Dietary preferences": "Dietary preferences",
+    "more details": "More details",
+    "Additional information to help volunteers": "Additional information to help volunteers",
+    "For example There are dogs in the yard we need to coordinate with the neighbor": "For example: There are dogs in the yard, we need to coordinate with the neighbor...",
+    "Photo of the family": "Photo of the family",
+    "Click to add a picture": "Click to add a picture",
+    "Add image (optionnaly)": "Add image (optionnaly)",
+    "after noon": " Afternoon",
+    "Creation and summary": "Creation and summary",
+    "Check the details before creating the meal train": "Check the details before creating the meal train",
+    "Last Name": "Last Name",
+    "delivery in": " Delivery in:",
+    "meals": " Meals",
+    "picture": "Picture",
+    "Create a meal train": "Create a meal train",
+    "The link was copied successfully!": " The link was copied successfully!",
+    "Copy link failed": "Copy link failed",
+    "Meal train created": "Meal train created",
+    "The meal train has been successfully created!": "The meal train has been successfully created!",
+    "Share the link with friends and family so they can sign up for meals.": "Share the link with friends and family so they can sign up for meals.",
+    "Share on WhatsApp": "Share on WhatsApp",
+    "Copy link": " Copy link",
+    "Go to the meal train": "Go to the meal train",
+    "address": "Address"
+  },
+  "addCategory": {
+    "mainButtonName": "Add Category",
+    "insertNewCategory": "Insert New Category",
+    "newCategoryPlaceholder": "Category Name",
+    "addButton": "Add",
+    "cancelButton": "Cancel",
+    "inCorrectInput": {
+      "nothing": "You have not yet entered a category name",
+      "short": "Category name is too short",
+      "startDigit": "Category name can't start with char or digit"
+    },
+    "alert": {
+      "unknownEvent": "unknown event",
+      "unknownUser": "You are not yet identified",
+      "error": "Adding the category failed :",
+      "success": "new category added successfully"
+    }
+  },
+  "error_prefix": "Error",
+  "Unknown_error": "Unknown error",
+  "Profile": {
+    "Not_entered_yet": "Not entered yet",
+    "Error_loading_profile": "Error loading profile",
+    "User_ID_not_found": "User ID not found. Please try logging in again.",
+    "title": "Personal Profile",
+    "full_name": "Full Name",
+    "email": "Gmail",
+    "verify_email": "Verify Email",
+    "preferred_language": "Preferred Language",
+    "language_options": {
+      "he": "Hebrew",
+      "en": "English"
+    },
+    "language": "Language",
+    "not_provided": "Not provided yet",
+    "email_error": "Invalid email",
+    "name_error": "Name must contain only Hebrew or English letters",
+    "save_success": "All changes saved successfully!",
+    "save_error": "Something went wrong. Please try again.",
+    "image_uploaded": ":white_check_mark: Image saved successfully!",
+    "image_uploaded_hint": "To view the updated image, click the refresh button.",
+    "delete_image": "Delete Image",
+    "delete_image_confirm": {
+      "title": "Are you sure you want to remove the picture?",
+      "text": "You will remove the picture from your account.",
+      "confirm": "Yes, remove it",
+      "cancel": "Cancel"
+    },
+    "delete_image_success": "Image removed successfully",
+    "delete_image_error": "Error removing image ❌",
+    "upload_error": "Error uploading image ❌",
+    "upload_tooltip": "Click to upload image",
+    "profile_image_alt": "Profile Image",
+    "change_password": "Change Password",
+    "notification_preferences": "Notification Preferences",
+    "unlink_google": "❌ Unlink Google Account",
+    "unlink_google_success": "Google account unlinked successfully!",
+    "unlink_google_error": "❌ Failed to unlink Google account",
+    "logout": "Logout",
+    "Are you sure you want to remove the picture?": "Are you sure you want to remove the picture?",
+    "You will remove the picture from your account": "You will remove the picture from your account.",
+    "Yes, remove it": "Yes, remove it",
+    "Cancel": "Cancel",
+    "logout_confirm": {
+      "title": "Are you sure you want to log out?",
+      "text": "You will be logged out and redirected to the home page.",
+      "confirm": "Yes, log me out",
+      "cancel": "Cancel"
+    },
+    "logout_success": "Logged out successfully",
+    "delete_account": "Delete Account",
+    "delete_account_success": "Account deleted successfully!",
+    "delete_account_error": "Something went wrong. Please try again.",
+    "loading": "Loading profile..."
+  },
+  "LinkGoogleAccount": {
+    "link_google_success": "The account is linked successfully!",
+    "link_google_error": "❌ Account linking failed"
+  },
+
+  "tags": {
+    "Gluten": "Gluten",
+    "peanuts": "Peanuts",
+    "soya": "Soy",
+    "milk": "Milk",
+    "eggs": "Eggs",
+    "kosher": "Kosher",
+    "vegan": "Vegan"
+  },
+  "Template": {
+    "create_event": "Create Event",
+    "choose_template": "Choose a Template",
+    "hide_a_peek": "Hide a Peek",
+    "template_choosen": "Template Chosen",
+    "peek": "Peek",
+    "to_create_event": "To Create Event",
+    "choose": "-- Choose --",
+    "party": "Party",
+    "army": "Army",
+    "birthday": "Birthday",
+    "cancel": "Cancel"
+  },
+  "NewUsersCard": {
+    "title": "New Users This Month",
+    "description": "New users that signed up this month",
+    "no_users": "No new users in the last 30 days"
+  },
+  "AppHome": {
+    "shabat_title": "Shabbat Synchronization",
+    "shabat_second_title": "Weekly Coordination",
+    "shabat_description": "Coordinate with family and friends where to spend Shabbat and holidays",
+    "event_title": "Event Planning",
+    "event_second_title": "Potluck Coordination",
+    "event_description": "Organize potluck events with smart food coordination and avoid duplication",
+    "meal_train_title": "Meal Train",
+    "meal_train_second_title": "Care Coordination",
+    "meal_train_description": "Support families during challenging times with coordinated meal delivery"
+  },
+  "account_verification": {
+    "sent_token": {
+      "missimng_email": "Verification code cannot be sent without email.",
+      "subject": "Website verification code",
+      "text": "Your verification code:",
+      "success": "Verification code was sent successfully!",
+      "error": "Error sending email, check the details to see if the email is correct."
+    },
+    "verify_code": {
+      "existing_code": "You must enter a verification code.",
+      "success": "The code was successfully verified, the account has been saved!",
+      "success2": "The code was successfully verified!",
+      "error": "Code verification failed, try again"
+    },
+    "title": "Account verification",
+    "sent_Email": "Sending a verification code to email",
+    "verification_code": "Verification code",
+    "enter_code": "Enter the code you received in the email",
+    "is_verifying": {
+      "click": "Code Verification",
+      "on_click": "Verify..."
+    },
+    "changeEmail": {
+      "to": "To change email",
+      "new_email": "New email",
+      "enter_email": "Enter a new email",
+      "change": "Email change",
+      "back": "Back",
+      "success": "Email updated successfully!",
+      "error": "Email change failed."
+    }
+  },
+  "AverageAttendeesCard": {
+    "title": "Average Attendees",
+    "description": "Average number of attendees per event",
+    "no_data": "No data available for this event"
+  },
+  "ShareLocationFirst": {
+    "step_1_title": "Share Location Plans",
+    "step_2_title": "Share Your Plans",
+    "step_indicator": "Step",
+    "choose_location_title": "Which location do you want to share?",
+    "choose_location_subtitle": "Let others know when you'll be at this place",
+    "continue_button": "Continue",
+    "share_created_title": "Share link created! 🎉",
+    "share_created_subtitle": "Send this to family and friends",
+    "sharing_label": "Sharing: ",
+    "whatsapp_button": "📱 WhatsApp",
+    "copy_button": "📋 Copy Link",
+    "back_profile_button": "Back to shabbat profile",
+    "copy_success": "Link copied!",
+    "no_location_alert": "Please select a location",
+    "load_error": "Failed to load locations. Please try again later."
+  },
+  "LocationModal": {
+    "editTitle": "Edit Location",
+    "addTitle": "Add New Location",
+    "name": "Name",
+    "address": "Address",
+    "street": "Street",
+    "houseNumber": "House Number",
+    "city": "City",
+    "type": "Location Type",
+    "selectType": "Select type",
+    "home": "🏠 Home",
+    "parents": "👨‍👩‍👧‍👦 Parents",
+    "inlaws": "👰 In-laws",
+    "friends": "👥 Friends",
+    "other": "📍 Other",
+    "save": "Save",
+    "update": "Update"
+  },
+  "Errors": {
+    "unauthorized": "Access is denied for unauthenticated users. Please log in to continue.",
+    "users": "An error occurred while loading users. Please try again later.",
+    "locations": "An error occurred while loading locations. Please try again.",
+    "general": "An unexpected error occurred. Please try again or contact support."
+  },
+  "Success": {
+    "locationSaved": "📍 Location saved successfully!",
+    "locationUpdated": "📍 Location updated successfully!"
+  },
+  "Validation": {
+    "required": "Please fill in all fields",
+    "house_number_numeric": "House number must be numeric only",
+    "address_must_contain_number": "Address must contain a house number"
+  },
+  "MonthlyActiveUsersCard": {
+    "title": "Monthly Active Users",
+    "description": "Number of users active this month"
+  },
+  "common": {
+    "loading": "Loading",
+    "error": "Error",
+    "failedToFetchData": "Failed to fetch data",
+    "unexpectedError": "An unexpected error occurred",
+    "noData": "No data available"
+  },
+  "backToEvent": {
+    "buttonText": "Back to Event"
+  },
+  "MonthlyActiveUsersByApp": {
+    "title": "number of monthly active users per app",
+    "fetch_error": "Failed to fetch data"
+  },
+  "EventsCreatedThisMonth": {
+    "fetch_error": "Error fetching events"
+  },
+  "ShabbatSyncAnalytics": {
+    "title": "Plans This Week",
+    "description": "Number of synced plans for this week"
+  },
+  "ExportMenuButton": {
+    "export_options": "Export Options",
+    "choose_how": "Choose how to export your menu",
+    "copy_json": "Copy as JSON",
+    "copy_json_desc": "Structured data to clipboard",
+    "download_json": "Download as JSON",
+    "download_json_desc": "Full data for developers",
+    "export_sheets": "Export to Google Sheets",
+    "export_sheets_desc": "Create spreadsheet in Drive"
+  },
+  "ProfileSetting": {
+    "manage_connections": "Manage Connections",
+    "title": "Profile & Settings ",
+    "account_members": "Account Members",
+    "invite_family": "Invite Family Member",
+    "invite_description": "Send a link to add someone to this account",
+    "share_invite_link": "Share via WhatsApp 📱",
+    "copy_link": "Copy link 📋",
+    "my_locations": "My Locations",
+    "sharing_privacy": "Sharing & Privacy",
+    "add": " +add",
+    "edit": "edit",
+    "sharing_location": "share location with others",
+    "link_copied": "Link copied to clipboard!",
+    "profile": "Shabbat profile"
+  },
+  "MyMealTrain": {
+    "my_meal_trains": "My Meal Trains",
+    "create_meal_train": "Create Meal Train",
+    "all": "All",
+    "admin": "Admin",
+    "volunteer": "Volunteer",
+    "viewer": "Viewer",
+    "meal_trains": "Meal Trains",
+    "no_meal_trains": "No meal trains available",
+    "try_filtering": "Try filtering another way or create a new one",
+    "search_placeholder": "Type to search meal trains",
+    "loading": "Loading meal trains...",
+    "error_loading_mealTrain": "Error load MealTrains"
+  },
+  "MealTrainCard": {
+    "status": {
+      "active": "Active",
+      "upcoming": "Upcoming",
+      "completed": "Completed"
+    },
+    "completed_successfully": "Completed successfully",
+    "registration_progress": "Registration Progress",
+    "meals": "Meals",
+    "you_provide_at": "You provide at",
+    "manage": "Manage",
+    "share": "Share",
+    "my_meal_train": "My Meal Train",
+    "view": "View",
+    "volunteer": "Volunteer",
+    "viewer": "Viewer",
+    "view_summary": "View Summary",
+    "thanks": "Thanks",
+    "date_range": "Date Range",
+    "people_count": "People Count",
+    "delivery_time": "Delivery Time",
+    "dietary_info": "Dietary Info",
+    "no_dietary_info": "No dietary info",
+    "adults": "Adults",
+    "children": "Children",
+    "progress": "Progress",
+    "my_meal": "My Meal",
+    "role": {
+      "admin": "Admin",
+      "volunteer": "Volunteer",
+      "viewer": "Viewer",
+      "admin_volunteer": "Admin/Volunteer"
+    },
+    "date": "Date",
+    "meal_description": "Meal Description",
+    "notes": "Notes",
+    "address": "Address",
+    "loading": "Loading meal details...",
+    "no_notes": "No notes provided",
+    "you_provide": "You provide at",
+    "thank_you": "Thank you",
+    "send_emails_question": "Are you sure you want to send the email to the volunteers?",
+    "send_emails_text": "Sending thank you email to volunteers for this meal.",
+    "send_emails_confirm": "Yes, send the email",
+    "send_emails_cancel": "Cancel",
+    "send_emails_success": "Success!",
+    "send_emails_success_text": "The email was successfully sent to all volunteers.",
+    "send_emails_cancel_text": "The action was canceled.",
+    "send_emails_error": "Error",
+    "send_emails_error_text": "An error occurred while sending the emails.",
+    "you_provided": "You provided at"
+  },
+  "MealTrainDetails": {
+    "mealTrain_details": "Meal Train Details",
+    "loading": "Loading...",
+    "error_loading": "Error loading meal train details",
+    "not_found": "Meal train not found",
+    "back_to_meal_trains": "Back to Meal Trains"
+  },
+  "addDishForm": {
+    "title": "Add New Dish",
+    "namePlaceholder": "Dish Name",
+    "descriptionPlaceholder": "Description",
+    "selectCategory": "Select Category",
+    "tagsLabel": "Tags",
+    "submitButton": "Submit",
+    "cancelButton": "Cancel",
+    "errors": {
+      "nameAndCategoryRequired": "Dish name and category are required fields",
+      "eventIdRequired": "eventId is a required field",
+      "userIdRequired": "userId is a required field",
+      "serverError": "Error submitting to server"
+    }
+  },
+  "ShareLocationSecond": {
+    "headerTitle": "Share Location Plans",
+    "step": "Step",
+    "Friend’s View": "Friend’s View",
+    "Location": "Location:",
+    "back": "Back",
+    "Connect to My Locations": "Connect to My Locations",
+    "continue": "Continue",
+    "locations matches": "Which of your locations matches theirs?",
+    "The": "The",
+    "Loading locations": "Loading locations...",
+    "Your Locations": "Your Locations",
+    "Choose below": "Choose below",
+    "Connect Locations": "Connect Locations",
+    "Connected": "Connected!",
+    "Youll see when The": "You'll see when The",
+    "are in": " are in",
+    "Share your plans back": "?Share your plans back",
+    "yes": "Yes",
+    "no": "No",
+    "home": "Home",
+    "Yes share my": "Yes, share my",
+    "plans": "plans",
+    "Theyll see when Im": "They'll see when I'm",
+    "No keep my plans private": "No, keep my plans private",
+    "They wont see my plans": "They won't see my plans",
+    "Mutual sharing with": "Mutual sharing with",
+    "You are now sharing your plans with": "You are now sharing your plans with",
+    "Sharing plans with you but you still arent sharing back": "Sharing plans with you, but you still aren't sharing back.",
+    "OK": "OK",
+    "Cancel": "Cancel",
+    "want to share with you": "wants to share with you",
+    "Loading invitations": "...Loading invitations",
+    "Complete Connection": "Complete Connection",
+    "locationShared": "Location shared successfully!",
+    "errorSharingLocation": "Error sharing location. Please try again.",
+    "noLocationSelected": "Please select a location to share.",
+    "shareLinkCopied": "Share link copied to clipboard!",
+    "Invitation Received": "Invitation Received"
+  },
+  "JoinAccount": {
+    "title": "You've been invited to join an account ✨",
+    "account_name": "Account name:",
+    "description": "Someone invited you to join a Shabbat Sharing account. By clicking the button below, you will join the account immediately.",
+    "confirm_button": "Confirm joining the account",
+    "confirmation_message": "You have successfully joined the account:  ",
+    "confirmation_note": "By clicking 'Confirm', you will automatically join the shared account",
+    "errors": {
+      "unauthorized": "You must log in to join the account",
+      "general": "An error occurred while joining the account",
+      "missingAccountId": "Account ID not found",
+      "missingAccountName": "Cannot confirm joining without account name",
+      "loadingAccountName": "An error occurred while loading the account name"
+    }
+  },
+  "shabbatMainAcreen": {
+    "going": "going",
+    "maybe": "maybe",
+    "noSignal": "You didn't signal arrival or hesitation",
+    "noSignalGeneral": "No people have marked arrival or hesitation",
+    "noGoing": "No people have marked arrival",
+    "noMaybe": "No people have marked hesitation",
+    "tapDecide": "Tap to see details and decide",
+    "load": "load more shabatts",
+    "endList": "You have reached the end of the list",
+    "loading": "loading",
+    "status": "MY STATUS"
+  },
+  "PlatformAdoptionRateCard": {
+    "title": "Percentage of multi-app users",
+    "description": "Percentage of active users in two or more apps out of all users"
+  },
+  "deleting_account": {
+    "confirm": "Deleting your account will remove all your data permanently. Are you sure you want to proceed?",
+    "email_subject": "Delete Account",
+    "email_body": "Your account has been successfully deleted.",
+    "success_message": "Account deleted successfully!",
+    "error_message": "Something went wrong. Please try again.",
+    "in_event":"A user associated with events cannot be deleted. Remove them from the events before deleting."
+       
+  },
+  "update_details": {
+    "name_error": "The name must contain only letters in Hebrew or English.",
+    "email_error": "Invalid email.",
+    "success_message": "All changes saved successfully!",
+    "error_message": "Something went wrong. Please try again.",
+    "already_email":"The email already exists. Change email."
+  },
+  "AddHomeLocationShabbat": {
+    "add_first_location": "Add Your First Location",
+    "where_is_home": "Where is \"home\" for you?",
+    "main_location_subtitle": "This will be your main location for Shabbat planning",
+    "location_name": "Location name",
+    "address": "Address",
+    "add_more_locations tip": "You can add more locations (parents, in-laws, etc.) later",
+    "add_location": "Add Location"
+  },
+  "AddLocationsShabbat": {
+    "add_more_locations_title": "Add More Locations",
+    "where_else_for_shabbat": "Where else do you spend Shabbat?",
+    "common_places_subtitle": "Add your common places",
+    "parents_label": "Parents",
+    "parents_placeholder": "456 King George St, Jerusalem",
+    "inlaws_label": "In-Laws",
+    "inlaws_placeholder": "789 Herzl St, Netanya",
+    "save_locations": "Save Locations",
+    "skip_for_now": "Skip for now"
+  },
+  "ShowMenu": {
+    "removeU": "Are you sure you want to leave the event?",
+    "removeAttendee": "Are you sure you want to remove {{name}}?",
+    "removeSuccess": "The deletion was successful",
+    "removeError": "An error occurred while deleting"
+  },
+  "AnalyticsActiveMealTRain": {
+    "title": "Number of Active Meal Trains",
+    "description": "The number of meal trains that are still ongoing and open for participation"
+  },
+  "volunteers": {
+    "title": "Total Volunteers This Month",
+    "description": "Number of volunteers who volunteered this month",
+    "error": "An error occurred while fetching volunteers"
+  },
+  "undoAction": {
+    "undoMainButton": "undo last action",
+    "alerts": {
+      "noAction": "No recent actions",
+      "error": "Error occurred while undoing the action",
+      "success": "Action undone successfully"
+    },
+    "ShabbatSyncAnalytics": {
+      "title": "Plans This Week",
+      "description": "Number of synced plans for this week"
+    }
+  },
+  "InvitePartnersShabbat": {
+    "invite_family_member": "Invite Family Member",
+    "invite_sarah_to_join": "Invite Sarah to join",
+    "share_account_access": "Share account access so you can plan together",
+    "send_invite_whatsapp": "Send Invite via WhatsApp",
+    "send_invite_email": "Send Invite via Email",
+    "both_can_set_plans": "Both of you will be able to set plans for \"David & Sarah\"",
+    "continue": "Continue",
+    "skip_for_now": "Skip for now"
+  },
+  "SharingHomeShabbat": {
+    "share_with_friends": "Share with Friends",
+    "start_coordinating": "Start coordinating!",
+    "share_tel_aviv_with_friends": "Share your Tel Aviv plans with friends and family",
+    "share_home_location": "Share your home location",
+    "share_tel_aviv_tip": "Let friends know when you're planning to be in Tel Aviv",
+    "youll_be_sharing": "You'll be sharing:",
+    "share_via_whatsapp": "Share via WhatsApp",
+    "copy_share_link": "Copy Share Link",
+    "copied_to_clipboard": "📋 Link copied to clipboard!",
+    "copy_failed": "Failed to copy link. Please try again.",
+    "share_link_tip": "💡 People with this link will see when you're planning to be home in Tel Aviv",
+    "continue": "Continue",
+    "skip_for_now": "Skip for now",
+    "step_5_of_6": "Step 5/6",
+    "whatsapp_message": "Hi! I'm sharing my Tel Aviv Shabbat plans with you. You can see when I'm planning to be home: https://yachad.app/share/xyz789"
+  },
+  "OnboardingCompleteShabbat": {
+    "screen_title": "Complete!",
+    "congrats_icon": "🎉",
+    "header": "You're all set!",
+    "subtitle": "Ready to start planning your first Shabbat",
+    "checklist_account_created": "Account created for \"{{accountName}}\"",
+    "checklist_home_location": "Added home location: {{homeLocationName}} – {{homeLocationAddress}}",
+    "checklist_additional_locations": "Added {{count}} additional location{{count > 1 ? 's' : ''}}",
+    "checklist_ready_to_share": "Ready to share with friends",
+    "start_planning_button": "Start Planning This Shabbat"
+  },
+  "ManageConnections": {
+    "title": "Manage Connections",
+    "back": "Back",
+    "network": "Your Network",
+    "description": "List of connections you've shared locations with.",
+    "loading": "Loading connections...",
+    "error_loading": "An error occurred while loading connections.",
+    "empty": "No connections to display.",
+    "you": "You",
+    "mutual": "Mutual",
+    "one_sided":"one sided",
+    "remove": "Remove",
+    "removed": "Connection removed successfully.",
+    "error_removing": "An error occurred while removing the connection.",
+    "confirm_remove": "Are you sure you want to remove this connection?"
+  },
+  "MealTrainJoin": {
+    "invit": "You have been invited to the meal train",
+    "join__message": "Your friend invited you to join a meal train and help a family in need of support.",
+    "family": "family",
+    "days": "days",
+    "childrens": "childrens",
+    "adults": "adults",
+    "preferreddelivery": "preferred delivery time",
+    "notDlivery": "No delivery time selected",
+    "wantsHelp": "want to help!",
+    "seeDetails": "just to see the details",
+    "chooseDate": "choose a date",
+    "available": "available",
+    "occupied": "occupied",
+    "volunteertoMeal": "Volunteer to Meal",
+    "name":"your full name",
+    "bring":"what you will bring",
+    "notes":"notes to the family",
+    "reminder":"when to send a reminder",
+    "reminder1":"1 day before", 
+    "reminder2":"2 days before",
+    "reminder3":"3 days before",
+    "approval":"approval volunteer",
+    "thanks":"thanks for your volunteering",
+    "joinSuccess": "the volunteer has been successfully  🎉",
+    "date":"date",
+    "meal":"meal",
+    "reminderTime":" reminder time",
+    "address":"address",
+    "shareLink":"share the link with new friends :",
+    "copyLinkSuccess": "the link has been successfully copied to the clipboard",
+    "WatchtheMealTrain": "whatch the meal train",
+    "back":"⬅ back"
+  },
+  "Decision": {
+    "parasha": "{{parasha}}",
+    "title": "Where will you be this Shabbat?",
+    "count_people": "{{count}} people are planning to be here",
+    "priority_people": ":star: Priority people",
+    "other_people": "Other friends",
+    "confirm_button": "Confirm: We'll be at {{location}}",
+    "maybe_button": "Maybe: Maybe at {{location}}",
+    "no_data": "No Shabbat data to display.",
+    "error_saving": "Error updating the plan",
+    "save_failed": "Failed to save the plan: {{message}}",
+    "save_success": "The update was saved successfully!"
+  },
+  "MangmentUser": {
+   "Error loading users": "Error loading users",
+   "Should I update a role?": "Should I update a role?",
+   "change the role of": "Change the role of",
+   "to": "to",
+   "Yes, update": "Yes, update",
+   "Cancellation": "Cancellation",
+   "The role has been updated!": "The role has been updated!",
+   "now he is": "Now he is",
+   "error!": "Error!",
+   "Something went wrong updating the role": "Something went wrong updating the role.",
+   "User list": "User List",
+   "Search by name": "Search by name...",
+   "Search by email": "Search by email...",
+   "Update role": "Update Role"
+  },
+  "MonthlyMealTrainCard": {
+    "title": "Meal Trains Created by Month",
+    "month": "Month",
+    "events": "Meal Trains",
+    "events_created": "Meal Trains Created"
+  }
+}
